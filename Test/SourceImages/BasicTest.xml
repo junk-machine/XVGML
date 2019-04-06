@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<basic:Canvas xmlns:basic="basic" xmlns:fill="fill" xmlns:web="web"
+              Size="200 150" Background="Red">
+  <basic:Rectangle Location="10" Size="50" Border-Width="3" Padding="2">
+    <fill:Gradient From="Lime" To="Yellow" Angle="45" />
+    <basic:Rectangle Size="10" Border="white">
+      <fill:Solid Color="Gray" />
+    </basic:Rectangle>
+  </basic:Rectangle>
+
+  <basic:Ellipse Location-Top="60" Location-Left="10" Size-Width="100" Size-Height="50" Border="3 black" Padding="2">
+    <fill:Gradient />
+    <basic:Rectangle Location="10" Size="10" Border="white">
+      <fill:Solid Color="Gray" />
+    </basic:Rectangle>
+  </basic:Ellipse>
+
+  <basic:Line From="70 10" To="100 50" Style="3 lime" />
+
+  <basic:Label Location="110 10" Font="Arial, 12, style=Bold, Italic" Text="Hello World!" />
+
+  <web:Image Location="10 60" Size="100 50" Sizing="Stretch" Source="http://www.dreamincode.net/forums/uploads/av-93439.jpg" />
+</basic:Canvas>

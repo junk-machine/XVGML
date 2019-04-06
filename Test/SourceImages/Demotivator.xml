@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<basic:Canvas xmlns:basic="basic" xmlns:web="web"
+              Size="400 500" Background="Black">
+  <basic:Rectangle Location="40" Size="320 400" Border="1 White" Padding="4">
+    <web:Image Size="312 392" Sizing="Stretch" Source="http://i149.photobucket.com/albums/s51/miss-snezhok/sept_2008/a1db9f88.jpg" />
+  </basic:Rectangle>
+
+  <basic:Label Location="450 40" Text="Pet the cat, damn!!11" Color="White" Font="Times New Roman, 22, style=Bold" />
+</basic:Canvas>
